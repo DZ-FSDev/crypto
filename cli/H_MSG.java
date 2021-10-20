@@ -13,9 +13,9 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
  * and optionally validates provided hash to true or false.
  * 
  * @see <a href=https://docs.oracle.com/javase/9/docs/specs/security/standard-names.html>
- *  		Java SE9 Security Standard Algorithm Names</a>
+ *			Java SE9 Security Standard Algorithm Names</a>
  * @see <a href=https://www.bouncycastle.org/java.html>
- * 			The Legion of the Bouncy Castle Java Cryptography APIs</a>
+ *			The Legion of the Bouncy Castle Java Cryptography APIs</a>
  * @author DZ-FSDev
  * @version 0.1.15
  * @since 16.0.1
