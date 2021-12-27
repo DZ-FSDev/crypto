@@ -1,3 +1,22 @@
+/*  Original Licensing Copyright
+ * 
+ *  Performs any Java Security Standard Hash or Bouncy Castle Hashes on UTF-8 Message 
+ *  and optionally validates provided hash.
+ *  Copyright (C) 2021  DZ-FSDev
+ *  
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
 package com.dz_fs_dev.crypto.cli;
 
 import java.math.BigInteger;
@@ -18,7 +37,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
  *			The Legion of the Bouncy Castle Java Cryptography APIs</a>
  * @author DZ-FSDev
  * @version 0.1.15
- * @since 16.0.1
+ * @since 17.0.1
  */
 public class H_MSG {
 	public static void main(String[] args) {
